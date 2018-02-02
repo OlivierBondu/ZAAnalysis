@@ -36,7 +36,7 @@ framework.addAnalyzer('hZA_analyzer', cms.PSet(
             elmu_subleadingLeptonPtCut = cms.untracked.double(10), # muon
         ),
         parameters = cms.PSet(
-            prescaleFactor = cms.untracked.int32(-1),
+            prescaleFactor = cms.untracked.int32(10),
             # Producers
             electronsProducer = cms.string('electrons'),
             muonsProducer = cms.string('muons'),
